@@ -1,0 +1,30 @@
+html{
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}  
+
+body{
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+
+    color: var(--primary-text-color);
+    background-color: var(--background-color);
+}
+  
+  ul,
+  p,
+  h1,
+  h2,
+  h3,
+  a
+  {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+  }
