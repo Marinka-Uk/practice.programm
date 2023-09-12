@@ -1,4 +1,15 @@
 @import url(./_variables.scss);
 @import url(./_utils.scss);
 @import url(./_common.scss);
-@import url(./_header.scss);/*# sourceMappingURL=main.css.map */
+@import url(./_header.scss);
+@import url(./_hero.scss);
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 354px;
+}
+.hero {
+  text-align: center;
+}/*# sourceMappingURL=main.css.map */
