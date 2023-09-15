@@ -1,20 +1,11 @@
-@import url(./_variables.scss);
-@import url(./_utils.scss);
-@import url(./_common.scss);
-@import url(./_header.scss);
-@import url(./_hero.scss);
+@import "./variables";
+@import "./utils";
+@import "./common"; 
+@import "./header"; 
+@import "./hero"; 
 
 
-.container{
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-right: auto;
-    margin-left: auto;
-    width: 354px;
-    @media screen and (min-width: 886px;){
-        width: 886px;
-    }
-    }
+
 
 .hero{
     text-align: center;
