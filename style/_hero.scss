@@ -8,3 +8,19 @@
 .hero{
     text-align: center;
 }
+
+.download{
+    margin-top:38px ;
+width: 208px;
+height: 47px;
+flex-shrink: 0;
+border-radius: 2px;
+border: none;
+background: var(--Primary, #FF6464);
+
+flex-shrink: 0;
+color: #FFF;
+
+font-size: 20px;
+font-weight: 500;
+}

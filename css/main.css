@@ -57,6 +57,32 @@ a {
   }
 }
 
+.addes {
+  color: #000;
+  text-align: right;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: normal;
+  margin-right: 33px;
+}
+
+.div {
+  margin-right: auto;
+}
+
+.contacts-div {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.contacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: auto;
+}
+
 .title {
   color: var(--Dark-Color, #21243D);
   text-align: center;
@@ -66,4 +92,49 @@ a {
 
 .hero {
   text-align: center;
+}
+
+.download {
+  margin-top: 38px;
+  width: 208px;
+  height: 47px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  border-radius: 2px;
+  border: none;
+  background: var(--Primary, #FF6464);
+  flex-shrink: 0;
+  color: #FFF;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.posts {
+  background-color: #EDF7FA;
+}
+
+.item {
+  border-radius: 4px;
+  background: #FFF;
+  -webkit-box-shadow: 0px 4px 10px 0px rgba(187, 225, 250, 0.25);
+          box-shadow: 0px 4px 10px 0px rgba(187, 225, 250, 0.25);
+}
+@media screen and (max-width: 1151px) {
+  .item:first-child {
+    margin-bottom: 17px;
+  }
+}
+@media screen and (min-width: 327px) {
+  .item:first-child {
+    margin-bottom: 17px;
+  }
+}
+
+.posts h2 {
+  margin-top: 7px;
+  margin-bottom: 2px;
+  color: var(--Dark-Color, #21243D);
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
 }/*# sourceMappingURL=main.css.map */

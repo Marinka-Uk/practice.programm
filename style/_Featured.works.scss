@@ -1,0 +1,16 @@
+.F-works{
+    background-color: #FFF;
+}
+.fea-h2{
+margin-top: 7px;
+margin-bottom: 2px;
+color: var(--Dark-Color, #21243D);
+font-size: 22px;
+font-style: normal;
+font-weight: 400;  }
+
+&:first-child{
+    @media screen and (max-width: 1151px){
+        margin-bottom: 17px;
+    }
+        }
