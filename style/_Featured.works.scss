@@ -14,3 +14,10 @@ font-weight: 400;  }
         margin-bottom: 17px;
     }
         }
+
+        .is-hidden{
+
+        @media screen and (min-width: 370px){
+            display: none;
+        }
+        }

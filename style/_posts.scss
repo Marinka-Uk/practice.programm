@@ -2,10 +2,23 @@
     background-color: #EDF7FA;
 
 }
+
+
+.article-list{
+
+    @media screen and (min-width:1150px){
+        display: flex;
+        justify-content: space-between;
+    }
+
+}
 .item{
     border-radius: 4px;
     background: #FFF;
     box-shadow: 0px 4px 10px 0px rgba(187, 225, 250, 0.25);
+    padding: 23px;
+
+    width: calc((100% - 20px * 2)/2);
     &:first-child{
 @media screen and (max-width: 1151px){
     margin-bottom: 17px;
@@ -16,7 +29,6 @@
             margin-bottom: 17px;
         }
             }
-    
 }
 .posts h2{
     margin-top: 7px;
