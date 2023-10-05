@@ -17,7 +17,7 @@ font-weight: 400;  }
 
         .is-hidden{
 
-        @media screen and (min-width: 370px){
+        @media screen and (max-width: 1149px){
             display: none;
         }
         }
