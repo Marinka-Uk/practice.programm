@@ -9,6 +9,14 @@
     text-align: center;
 }
 
+.John{
+@media screen and (max-width:1150px) {
+
+    width: 243px;
+    height: 243px;
+    flex-shrink: 0;
+}
+}
 .download{
     margin-top:38px ;
 width: 208px;

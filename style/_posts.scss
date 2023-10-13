@@ -37,5 +37,28 @@
 color: var(--Dark-Color, #21243D);
 font-size: 22px;
 font-style: normal;
-font-weight: 400; }
+font-weight: 400; 
+   
+@media screen and (max-width: 1150px){
+    display: flex;
+    justify-content: center;
+}
 
+
+}
+
+.post-view{
+display: flex;
+justify-content: flex-end;
+ border: red;
+
+ color: var(--Secondry, #00A8CC);
+text-align: right;
+font-size: 16px;
+}
+
+.article-post{
+    width: 1152px;
+height: 396px;
+flex-shrink: 0;
+}
